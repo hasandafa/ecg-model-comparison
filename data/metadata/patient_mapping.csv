@@ -1,0 +1,576 @@
+filename,patient_id,label,label_numeric,path,split
+101_1.jpg,101,normal,0,data\raw\normal\101_1.jpg,train
+101_2.jpg,101,normal,0,data\raw\normal\101_2.jpg,train
+101_3.jpg,101,normal,0,data\raw\normal\101_3.jpg,train
+15_1.jpg,15,normal,0,data\raw\normal\15_1.jpg,test
+15_2.jpg,15,normal,0,data\raw\normal\15_2.jpg,test
+15_2_1.jpg,15,normal,0,data\raw\normal\15_2_1.jpg,test
+15_2_2.jpg,15,normal,0,data\raw\normal\15_2_2.jpg,test
+16_1.jpg,16,normal,0,data\raw\normal\16_1.jpg,train
+16_2.jpg,16,normal,0,data\raw\normal\16_2.jpg,train
+17_1.jpg,17,normal,0,data\raw\normal\17_1.jpg,train
+17_2.jpg,17,normal,0,data\raw\normal\17_2.jpg,train
+21_1.jpg,21,normal,0,data\raw\normal\21_1.jpg,train
+21_2.jpg,21,normal,0,data\raw\normal\21_2.jpg,train
+25_1.jpg,25,normal,0,data\raw\normal\25_1.jpg,train
+25_2.jpg,25,normal,0,data\raw\normal\25_2.jpg,train
+35_1.jpg,35,normal,0,data\raw\normal\35_1.jpg,train
+35_2.jpg,35,normal,0,data\raw\normal\35_2.jpg,train
+4_1.jpg,4,normal,0,data\raw\normal\4_1.jpg,val
+4_2.jpg,4,normal,0,data\raw\normal\4_2.jpg,val
+4_3.jpg,4,normal,0,data\raw\normal\4_3.jpg,val
+4_4.jpg,4,normal,0,data\raw\normal\4_4.jpg,val
+57_1.jpg,57,normal,0,data\raw\normal\57_1.jpg,train
+57_2.jpg,57,normal,0,data\raw\normal\57_2.jpg,train
+61_1.jpg,61,normal,0,data\raw\normal\61_1.jpg,train
+61_2.jpg,61,normal,0,data\raw\normal\61_2.jpg,train
+6_1.jpg,6,normal,0,data\raw\normal\6_1.jpg,train
+6_2.jpg,6,normal,0,data\raw\normal\6_2.jpg,train
+72_1.jpg,72,normal,0,data\raw\normal\72_1.jpg,train
+72_2.jpg,72,normal,0,data\raw\normal\72_2.jpg,train
+7_1.jpg,7,normal,0,data\raw\normal\7_1.jpg,val
+7_2.jpg,7,normal,0,data\raw\normal\7_2.jpg,val
+87_1.jpg,87,normal,0,data\raw\normal\87_1.jpg,test
+87_2.jpg,87,normal,0,data\raw\normal\87_2.jpg,test
+87_3.jpg,87,normal,0,data\raw\normal\87_3.jpg,test
+8_1.jpg,8,normal,0,data\raw\normal\8_1.jpg,train
+8_2.jpg,8,normal,0,data\raw\normal\8_2.jpg,train
+9_1.jpg,9,normal,0,data\raw\normal\9_1.jpg,train
+9_2.jpg,9,normal,0,data\raw\normal\9_2.jpg,train
+9_3.jpg,9,normal,0,data\raw\normal\9_3.jpg,train
+9_4.jpg,9,normal,0,data\raw\normal\9_4.jpg,train
+absah_1.jpg,absah,normal,0,data\raw\normal\absah_1.jpg,train
+absah_2.jpg,absah,normal,0,data\raw\normal\absah_2.jpg,train
+ade efendi1_1.jpg,ade efendi1,normal,0,data\raw\normal\ade efendi1_1.jpg,test
+ade efendi1_2.jpg,ade efendi1,normal,0,data\raw\normal\ade efendi1_2.jpg,test
+Adhari _1.jpg,Adhari ,normal,0,data\raw\normal\Adhari _1.jpg,train
+Adhari _2.jpg,Adhari ,normal,0,data\raw\normal\Adhari _2.jpg,train
+Adong Mauly Sitohang_1.jpg,Adong Mauly Sitohang,normal,0,data\raw\normal\Adong Mauly Sitohang_1.jpg,train
+Adong Mauly Sitohang_2.jpg,Adong Mauly Sitohang,normal,0,data\raw\normal\Adong Mauly Sitohang_2.jpg,train
+ahmad inayat_1.jpg,ahmad inayat,normal,0,data\raw\normal\ahmad inayat_1.jpg,train
+ahmad inayat_2.jpg,ahmad inayat,normal,0,data\raw\normal\ahmad inayat_2.jpg,train
+Ahmad_1.jpg,Ahmad,normal,0,data\raw\normal\Ahmad_1.jpg,val
+Ahmad_2.jpg,Ahmad,normal,0,data\raw\normal\Ahmad_2.jpg,val
+Ali Suryana_1.jpg,Ali Suryana,normal,0,data\raw\normal\Ali Suryana_1.jpg,train
+Ali Suryana_2.jpg,Ali Suryana,normal,0,data\raw\normal\Ali Suryana_2.jpg,train
+Ali Suryana_3.jpg,Ali Suryana,normal,0,data\raw\normal\Ali Suryana_3.jpg,train
+Ali Suryana_4.jpg,Ali Suryana,normal,0,data\raw\normal\Ali Suryana_4.jpg,train
+Aminah_1.jpg,Aminah,normal,0,data\raw\normal\Aminah_1.jpg,test
+Aminah_2.jpg,Aminah,normal,0,data\raw\normal\Aminah_2.jpg,test
+Aminah_3.jpg,Aminah,normal,0,data\raw\normal\Aminah_3.jpg,test
+Ana ruhyana_1.jpg,Ana ruhyana,normal,0,data\raw\normal\Ana ruhyana_1.jpg,test
+Ana ruhyana_2.jpg,Ana ruhyana,normal,0,data\raw\normal\Ana ruhyana_2.jpg,test
+Anirah_1.jpg,Anirah,normal,0,data\raw\normal\Anirah_1.jpg,val
+Anirah_2.jpg,Anirah,normal,0,data\raw\normal\Anirah_2.jpg,val
+Aplihah_1.jpg,Aplihah,normal,0,data\raw\normal\Aplihah_1.jpg,train
+Aplihah_3.jpg,Aplihah,normal,0,data\raw\normal\Aplihah_3.jpg,train
+Arsiah_1.jpg,Arsiah,normal,0,data\raw\normal\Arsiah_1.jpg,train
+Arsiah_2.jpg,Arsiah,normal,0,data\raw\normal\Arsiah_2.jpg,train
+Aslah HJ_1.jpg,Aslah HJ,normal,0,data\raw\normal\Aslah HJ_1.jpg,train
+Aslah HJ_2.jpg,Aslah HJ,normal,0,data\raw\normal\Aslah HJ_2.jpg,train
+Asmiah_1.jpg,Asmiah,normal,0,data\raw\normal\Asmiah_1.jpg,train
+Asmiah_2.jpg,Asmiah,normal,0,data\raw\normal\Asmiah_2.jpg,train
+Asmiah_3.jpg,Asmiah,normal,0,data\raw\normal\Asmiah_3.jpg,train
+Asmiah_4.jpg,Asmiah,normal,0,data\raw\normal\Asmiah_4.jpg,train
+Astari_1.jpg,Astari,normal,0,data\raw\normal\Astari_1.jpg,train
+Astari_2.jpg,Astari,normal,0,data\raw\normal\Astari_2.jpg,train
+Awitem_1.jpg,Awitem,normal,0,data\raw\normal\Awitem_1.jpg,train
+Awitem_2.jpg,Awitem,normal,0,data\raw\normal\Awitem_2.jpg,train
+Ayayan Febri Yani_1.jpg,Ayayan Febri Yani,normal,0,data\raw\normal\Ayayan Febri Yani_1.jpg,val
+Ayayan Febri Yani_2.jpg,Ayayan Febri Yani,normal,0,data\raw\normal\Ayayan Febri Yani_2.jpg,val
+Bahriah_1.jpg,Bahriah,normal,0,data\raw\normal\Bahriah_1.jpg,train
+Bahriah_2.jpg,Bahriah,normal,0,data\raw\normal\Bahriah_2.jpg,train
+Buang_1.jpg,Buang,normal,0,data\raw\normal\Buang_1.jpg,train
+Buang_2.jpg,Buang,normal,0,data\raw\normal\Buang_2.jpg,train
+Cao Mingsheng_1.jpg,Cao Mingsheng,normal,0,data\raw\normal\Cao Mingsheng_1.jpg,val
+Cao Mingsheng_2.jpg,Cao Mingsheng,normal,0,data\raw\normal\Cao Mingsheng_2.jpg,val
+Cao Mingsheng_3.jpg,Cao Mingsheng,normal,0,data\raw\normal\Cao Mingsheng_3.jpg,val
+Cucum_1.jpg,Cucum,normal,0,data\raw\normal\Cucum_1.jpg,train
+Cucum_2.jpg,Cucum,normal,0,data\raw\normal\Cucum_2.jpg,train
+Dedah Haeriah_1.jpg,Dedah Haeriah,normal,0,data\raw\normal\Dedah Haeriah_1.jpg,val
+Dedah Haeriah_2.jpg,Dedah Haeriah,normal,0,data\raw\normal\Dedah Haeriah_2.jpg,val
+Deni Sugandi_1.jpg,Deni Sugandi,normal,0,data\raw\normal\Deni Sugandi_1.jpg,train
+Deni Sugandi_2.jpg,Deni Sugandi,normal,0,data\raw\normal\Deni Sugandi_2.jpg,train
+Dr. Iis Aisyah_1.jpg,Dr. Iis Aisyah,normal,0,data\raw\normal\Dr. Iis Aisyah_1.jpg,train
+Dr. Iis Aisyah_2.jpg,Dr. Iis Aisyah,normal,0,data\raw\normal\Dr. Iis Aisyah_2.jpg,train
+Dr. rasyid ridha butar_1.jpg,Dr. rasyid ridha butar,normal,0,data\raw\normal\Dr. rasyid ridha butar_1.jpg,test
+Dr. rasyid ridha butar_2.jpg,Dr. rasyid ridha butar,normal,0,data\raw\normal\Dr. rasyid ridha butar_2.jpg,test
+Dr. rasyid ridha butar_3.jpg,Dr. rasyid ridha butar,normal,0,data\raw\normal\Dr. rasyid ridha butar_3.jpg,test
+Drs. H. suhaemi_1.jpg,Drs. H. suhaemi,normal,0,data\raw\normal\Drs. H. suhaemi_1.jpg,train
+Drs. H. suhaemi_2.jpg,Drs. H. suhaemi,normal,0,data\raw\normal\Drs. H. suhaemi_2.jpg,train
+E. majsuri_1.jpg,E. majsuri,normal,0,data\raw\normal\E. majsuri_1.jpg,val
+E. majsuri_2.jpg,E. majsuri,normal,0,data\raw\normal\E. majsuri_2.jpg,val
+Eman Sudirman _1.jpg,Eman Sudirman ,normal,0,data\raw\normal\Eman Sudirman _1.jpg,train
+Eman Sudirman _2.jpg,Eman Sudirman ,normal,0,data\raw\normal\Eman Sudirman _2.jpg,train
+Eni nuraeni_1.jpg,Eni nuraeni,normal,0,data\raw\normal\Eni nuraeni_1.jpg,train
+Eni nuraeni_2.jpg,Eni nuraeni,normal,0,data\raw\normal\Eni nuraeni_2.jpg,train
+Eni nuraeni_3.jpg,Eni nuraeni,normal,0,data\raw\normal\Eni nuraeni_3.jpg,train
+Entin_1.jpg,Entin,normal,0,data\raw\normal\Entin_1.jpg,train
+Entin_2.jpg,Entin,normal,0,data\raw\normal\Entin_2.jpg,train
+Entin_3.jpg,Entin,normal,0,data\raw\normal\Entin_3.jpg,train
+ernawati_1.jpg,ernawati,normal,0,data\raw\normal\ernawati_1.jpg,train
+ernawati_2.jpg,ernawati,normal,0,data\raw\normal\ernawati_2.jpg,train
+ernawati_3.jpg,ernawati,normal,0,data\raw\normal\ernawati_3.jpg,train
+ernawati_4.jpg,ernawati,normal,0,data\raw\normal\ernawati_4.jpg,train
+Euis Wati_1.jpg,Euis Wati,normal,0,data\raw\normal\Euis Wati_1.jpg,val
+Euis Wati_2.jpg,Euis Wati,normal,0,data\raw\normal\Euis Wati_2.jpg,val
+Fang le le_1.jpg,Fang le le,normal,0,data\raw\normal\Fang le le_1.jpg,train
+Fang le le_2.jpg,Fang le le,normal,0,data\raw\normal\Fang le le_2.jpg,train
+Fari Suryaningsih _1.jpg,Fari Suryaningsih ,normal,0,data\raw\normal\Fari Suryaningsih _1.jpg,train
+Fari Suryaningsih _2.jpg,Fari Suryaningsih ,normal,0,data\raw\normal\Fari Suryaningsih _2.jpg,train
+h. sanhari_1.jpg,h. sanhari,normal,0,data\raw\normal\h. sanhari_1.jpg,train
+h. sanhari_2.jpg,h. sanhari,normal,0,data\raw\normal\h. sanhari_2.jpg,train
+H. Siswono_1.jpg,H. Siswono,normal,0,data\raw\normal\H. Siswono_1.jpg,train
+H. Siswono_2.jpg,H. Siswono,normal,0,data\raw\normal\H. Siswono_2.jpg,train
+H. suhatama_1.jpg,H. suhatama,normal,0,data\raw\normal\H. suhatama_1.jpg,train
+H. suhatama_2.jpg,H. suhatama,normal,0,data\raw\normal\H. suhatama_2.jpg,train
+Habsah_1.jpg,Habsah,normal,0,data\raw\normal\Habsah_1.jpg,test
+Habsah_2.jpg,Habsah,normal,0,data\raw\normal\Habsah_2.jpg,test
+Hasbiyah_1.jpg,Hasbiyah,normal,0,data\raw\normal\Hasbiyah_1.jpg,train
+Hasbiyah_2.jpg,Hasbiyah,normal,0,data\raw\normal\Hasbiyah_2.jpg,train
+Hendra Sukmara_1.jpg,Hendra Sukmara,normal,0,data\raw\normal\Hendra Sukmara_1.jpg,train
+Hendra Sukmara_2.jpg,Hendra Sukmara,normal,0,data\raw\normal\Hendra Sukmara_2.jpg,train
+heni nuraeni_1.jpg,heni nuraeni,normal,0,data\raw\normal\heni nuraeni_1.jpg,train
+heni nuraeni_2.jpg,heni nuraeni,normal,0,data\raw\normal\heni nuraeni_2.jpg,train
+Henny isye sondakh_1.jpg,Henny isye sondakh,normal,0,data\raw\normal\Henny isye sondakh_1.jpg,train
+Henny isye sondakh_2.jpg,Henny isye sondakh,normal,0,data\raw\normal\Henny isye sondakh_2.jpg,train
+herman.jpg,herman,normal,0,data\raw\normal\herman.jpg,train
+Imi_1.jpg,Imi,normal,0,data\raw\normal\Imi_1.jpg,test
+Imi_2.jpg,Imi,normal,0,data\raw\normal\Imi_2.jpg,test
+Indarti_1.jpg,Indarti,normal,0,data\raw\normal\Indarti_1.jpg,train
+Indarti_2.jpg,Indarti,normal,0,data\raw\normal\Indarti_2.jpg,train
+Inna irawati_1.jpg,Inna irawati,normal,0,data\raw\normal\Inna irawati_1.jpg,train
+Inna irawati_2.jpg,Inna irawati,normal,0,data\raw\normal\Inna irawati_2.jpg,train
+Inna irawati_3.jpg,Inna irawati,normal,0,data\raw\normal\Inna irawati_3.jpg,train
+Intan Permatasari_1.jpg,Intan Permatasari,normal,0,data\raw\normal\Intan Permatasari_1.jpg,train
+Intan Permatasari_2.jpg,Intan Permatasari,normal,0,data\raw\normal\Intan Permatasari_2.jpg,train
+Ipayah_1.jpg,Ipayah,normal,0,data\raw\normal\Ipayah_1.jpg,val
+Ipayah_2.jpg,Ipayah,normal,0,data\raw\normal\Ipayah_2.jpg,val
+Irawan Hadiwardaja_1.jpg,Irawan Hadiwardaja,normal,0,data\raw\normal\Irawan Hadiwardaja_1.jpg,test
+Irawan Hadiwardaja_2.jpg,Irawan Hadiwardaja,normal,0,data\raw\normal\Irawan Hadiwardaja_2.jpg,test
+Iriana Ramadhani _1.jpg,Iriana Ramadhani ,normal,0,data\raw\normal\Iriana Ramadhani _1.jpg,val
+Iriana Ramadhani _2.jpg,Iriana Ramadhani ,normal,0,data\raw\normal\Iriana Ramadhani _2.jpg,val
+Jariyah_1.jpg,Jariyah,normal,0,data\raw\normal\Jariyah_1.jpg,train
+Jariyah_2.jpg,Jariyah,normal,0,data\raw\normal\Jariyah_2.jpg,train
+Kamsah.jpg,Kamsah,normal,0,data\raw\normal\Kamsah.jpg,train
+Kartini_1 (1).jpg,Kartini_1 (1),normal,0,data\raw\normal\Kartini_1 (1).jpg,val
+Kartini_1.jpg,Kartini,normal,0,data\raw\normal\Kartini_1.jpg,train
+Kartini_2 (1).jpg,Kartini_2 (1),normal,0,data\raw\normal\Kartini_2 (1).jpg,train
+Kartini_2.jpg,Kartini,normal,0,data\raw\normal\Kartini_2.jpg,train
+Kastori_1.jpg,Kastori,normal,0,data\raw\normal\Kastori_1.jpg,train
+Kastori_2.jpg,Kastori,normal,0,data\raw\normal\Kastori_2.jpg,train
+Khadimah_1.jpg,Khadimah,normal,0,data\raw\normal\Khadimah_1.jpg,train
+Khadimah_2.jpg,Khadimah,normal,0,data\raw\normal\Khadimah_2.jpg,train
+Khusnul Mahdi_1.jpg,Khusnul Mahdi,normal,0,data\raw\normal\Khusnul Mahdi_1.jpg,val
+Khusnul Mahdi_2.jpg,Khusnul Mahdi,normal,0,data\raw\normal\Khusnul Mahdi_2.jpg,val
+Khusnul Mahdi_3.jpg,Khusnul Mahdi,normal,0,data\raw\normal\Khusnul Mahdi_3.jpg,val
+Lilis setiowati_1.jpg,Lilis setiowati,normal,0,data\raw\normal\Lilis setiowati_1.jpg,val
+Lilis setiowati_2.jpg,Lilis setiowati,normal,0,data\raw\normal\Lilis setiowati_2.jpg,val
+Lisa adah_1.jpg,Lisa adah,normal,0,data\raw\normal\Lisa adah_1.jpg,train
+Lisa adah_2.jpg,Lisa adah,normal,0,data\raw\normal\Lisa adah_2.jpg,train
+Lisa adah_3.jpg,Lisa adah,normal,0,data\raw\normal\Lisa adah_3.jpg,train
+Lisa adah_4.jpg,Lisa adah,normal,0,data\raw\normal\Lisa adah_4.jpg,train
+Lukmanul_1.jpg,Lukmanul,normal,0,data\raw\normal\Lukmanul_1.jpg,train
+Lukmanul_2.jpg,Lukmanul,normal,0,data\raw\normal\Lukmanul_2.jpg,train
+Lukmanul_3.jpg,Lukmanul,normal,0,data\raw\normal\Lukmanul_3.jpg,train
+M. Gusmiantini_1.jpg,M. Gusmiantini,normal,0,data\raw\normal\M. Gusmiantini_1.jpg,train
+M. Gusmiantini_2.jpg,M. Gusmiantini,normal,0,data\raw\normal\M. Gusmiantini_2.jpg,train
+Ma Mun_1.jpg,Ma Mun,normal,0,data\raw\normal\Ma Mun_1.jpg,test
+Ma Mun_2.jpg,Ma Mun,normal,0,data\raw\normal\Ma Mun_2.jpg,test
+Ma qiaoxin_1.jpg,Ma qiaoxin,normal,0,data\raw\normal\Ma qiaoxin_1.jpg,val
+Ma qiaoxin_2.jpg,Ma qiaoxin,normal,0,data\raw\normal\Ma qiaoxin_2.jpg,val
+Ma qiaoxin_3.jpg,Ma qiaoxin,normal,0,data\raw\normal\Ma qiaoxin_3.jpg,val
+Maesaroh_1.jpg,Maesaroh,normal,0,data\raw\normal\Maesaroh_1.jpg,train
+Maesaroh_2.jpg,Maesaroh,normal,0,data\raw\normal\Maesaroh_2.jpg,train
+Marta.jpg,Marta,normal,0,data\raw\normal\Marta.jpg,test
+Masamah_1.jpg,Masamah,normal,0,data\raw\normal\Masamah_1.jpg,train
+Masamah_2.jpg,Masamah,normal,0,data\raw\normal\Masamah_2.jpg,train
+mey nilawati_1.jpg,mey nilawati,normal,0,data\raw\normal\mey nilawati_1.jpg,train
+mey nilawati_2.jpg,mey nilawati,normal,0,data\raw\normal\mey nilawati_2.jpg,train
+Misru_1.jpg,Misru,normal,0,data\raw\normal\Misru_1.jpg,train
+Misru_2.jpg,Misru,normal,0,data\raw\normal\Misru_2.jpg,train
+Muhammad Said_1.jpg,Muhammad Said,normal,0,data\raw\normal\Muhammad Said_1.jpg,train
+Muhammad Said_2.jpg,Muhammad Said,normal,0,data\raw\normal\Muhammad Said_2.jpg,train
+Mulyati_1.jpg,Mulyati,normal,0,data\raw\normal\Mulyati_1.jpg,train
+Mulyati_2.jpg,Mulyati,normal,0,data\raw\normal\Mulyati_2.jpg,train
+Mulyati_3.jpg,Mulyati,normal,0,data\raw\normal\Mulyati_3.jpg,train
+Mulyati_4.jpg,Mulyati,normal,0,data\raw\normal\Mulyati_4.jpg,train
+Murod Maulana Yu_1.jpg,Murod Maulana Yu,normal,0,data\raw\normal\Murod Maulana Yu_1.jpg,train
+Murod Maulana Yu_2.jpg,Murod Maulana Yu,normal,0,data\raw\normal\Murod Maulana Yu_2.jpg,train
+Nabila_1.jpg,Nabila,normal,0,data\raw\normal\Nabila_1.jpg,val
+Nabila_2.jpg,Nabila,normal,0,data\raw\normal\Nabila_2.jpg,val
+Nakiyah_1.jpg,Nakiyah,normal,0,data\raw\normal\Nakiyah_1.jpg,train
+Nakiyah_2.jpg,Nakiyah,normal,0,data\raw\normal\Nakiyah_2.jpg,train
+nasroh_1.jpg,nasroh,normal,0,data\raw\normal\nasroh_1.jpg,train
+nasroh_2.jpg,nasroh,normal,0,data\raw\normal\nasroh_2.jpg,train
+Neneng Lelly Wulansari _1.jpg,Neneng Lelly Wulansari ,normal,0,data\raw\normal\Neneng Lelly Wulansari _1.jpg,train
+Neneng Lelly Wulansari _2.jpg,Neneng Lelly Wulansari ,normal,0,data\raw\normal\Neneng Lelly Wulansari _2.jpg,train
+Neneng Lelly Wulansari _3.jpg,Neneng Lelly Wulansari ,normal,0,data\raw\normal\Neneng Lelly Wulansari _3.jpg,train
+nis rizy_1.jpg,nis rizy,normal,0,data\raw\normal\nis rizy_1.jpg,val
+nis rizy_2.jpg,nis rizy,normal,0,data\raw\normal\nis rizy_2.jpg,val
+No 10_1.jpg,No 10,normal,0,data\raw\normal\No 10_1.jpg,train
+No 10_2.jpg,No 10,normal,0,data\raw\normal\No 10_2.jpg,train
+No 16.1_1.jpg,No 16.1,normal,0,data\raw\normal\No 16.1_1.jpg,train
+No 16.1_2.jpg,No 16.1,normal,0,data\raw\normal\No 16.1_2.jpg,train
+No 16.2_1.jpg,No 16.2,normal,0,data\raw\normal\No 16.2_1.jpg,train
+No 16.2_2.jpg,No 16.2,normal,0,data\raw\normal\No 16.2_2.jpg,train
+No 55_1.jpg,No 55,normal,0,data\raw\normal\No 55_1.jpg,train
+No 55_2.jpg,No 55,normal,0,data\raw\normal\No 55_2.jpg,train
+No 8.jpg,No 8,normal,0,data\raw\normal\No 8.jpg,test
+No 9_1.jpg,No 9,normal,0,data\raw\normal\No 9_1.jpg,test
+No 9_2.jpg,No 9,normal,0,data\raw\normal\No 9_2.jpg,test
+no name 1_1.jpg,no name 1,normal,0,data\raw\normal\no name 1_1.jpg,train
+no name 1_2.jpg,no name 1,normal,0,data\raw\normal\no name 1_2.jpg,train
+Noname 1_3.jpg,Noname 1,normal,0,data\raw\normal\Noname 1_3.jpg,val
+Noname 1_4.jpg,Noname 1,normal,0,data\raw\normal\Noname 1_4.jpg,val
+Noname 2_1.jpg,Noname 2,normal,0,data\raw\normal\Noname 2_1.jpg,train
+Noname 2_2.jpg,Noname 2,normal,0,data\raw\normal\Noname 2_2.jpg,train
+Nurasiyah_1.jpg,Nurasiyah,normal,0,data\raw\normal\Nurasiyah_1.jpg,train
+Nurasiyah_2.jpg,Nurasiyah,normal,0,data\raw\normal\Nurasiyah_2.jpg,train
+Nurhayati _1.jpg,Nurhayati ,normal,0,data\raw\normal\Nurhayati _1.jpg,test
+Nurhayati _2.jpg,Nurhayati ,normal,0,data\raw\normal\Nurhayati _2.jpg,test
+Nurikasari_1.jpg,Nurikasari,normal,0,data\raw\normal\Nurikasari_1.jpg,train
+Nurikasari_2.jpg,Nurikasari,normal,0,data\raw\normal\Nurikasari_2.jpg,train
+Nurikasari_3.jpg,Nurikasari,normal,0,data\raw\normal\Nurikasari_3.jpg,train
+Nuriyah_1.jpg,Nuriyah,normal,0,data\raw\normal\Nuriyah_1.jpg,val
+Nuriyah_2.jpg,Nuriyah,normal,0,data\raw\normal\Nuriyah_2.jpg,val
+Nuriyah_3.jpg,Nuriyah,normal,0,data\raw\normal\Nuriyah_3.jpg,val
+Nursaman_1.jpg,Nursaman,normal,0,data\raw\normal\Nursaman_1.jpg,train
+Nursaman_2.jpg,Nursaman,normal,0,data\raw\normal\Nursaman_2.jpg,train
+ny wira n_1.jpg,ny wira n,normal,0,data\raw\normal\ny wira n_1.jpg,train
+ny wira n_2.jpg,ny wira n,normal,0,data\raw\normal\ny wira n_2.jpg,train
+Ny. esia_1.jpg,Ny. esia,normal,0,data\raw\normal\Ny. esia_1.jpg,test
+Ny. esia_2.jpg,Ny. esia,normal,0,data\raw\normal\Ny. esia_2.jpg,test
+Ny. eti ahyati_1.jpg,Ny. eti ahyati,normal,0,data\raw\normal\Ny. eti ahyati_1.jpg,train
+Ny. eti ahyati_2.jpg,Ny. eti ahyati,normal,0,data\raw\normal\Ny. eti ahyati_2.jpg,train
+Ny. Eti Herawah_1.jpg,Ny. Eti Herawah,normal,0,data\raw\normal\Ny. Eti Herawah_1.jpg,val
+Ny. Eti Herawah_2.jpg,Ny. Eti Herawah,normal,0,data\raw\normal\Ny. Eti Herawah_2.jpg,val
+Ny. Mulyati _1.jpg,Ny. Mulyati ,normal,0,data\raw\normal\Ny. Mulyati _1.jpg,train
+Ny. Mulyati _2.jpg,Ny. Mulyati ,normal,0,data\raw\normal\Ny. Mulyati _2.jpg,train
+Ny. rodiah_1.jpg,Ny. rodiah,normal,0,data\raw\normal\Ny. rodiah_1.jpg,train
+Ny. rodiah_2.jpg,Ny. rodiah,normal,0,data\raw\normal\Ny. rodiah_2.jpg,train
+Ny. saliyah Tn. nurudin_1.jpg,Ny. saliyah Tn. nurudin,normal,0,data\raw\normal\Ny. saliyah Tn. nurudin_1.jpg,test
+Ny. saliyah Tn. nurudin_2.jpg,Ny. saliyah Tn. nurudin,normal,0,data\raw\normal\Ny. saliyah Tn. nurudin_2.jpg,test
+Ny. saliyah Tn. nurudin_3.jpg,Ny. saliyah Tn. nurudin,normal,0,data\raw\normal\Ny. saliyah Tn. nurudin_3.jpg,test
+Ny. Saminah_1.jpg,Ny. Saminah,normal,0,data\raw\normal\Ny. Saminah_1.jpg,train
+Ny. Saminah_2.jpg,Ny. Saminah,normal,0,data\raw\normal\Ny. Saminah_2.jpg,train
+Nyi Nikmah_1.jpg,Nyi Nikmah,normal,0,data\raw\normal\Nyi Nikmah_1.jpg,test
+Nyi Nikmah_2.jpg,Nyi Nikmah,normal,0,data\raw\normal\Nyi Nikmah_2.jpg,test
+Oji_1.jpg,Oji,normal,0,data\raw\normal\Oji_1.jpg,train
+Oji_2.jpg,Oji,normal,0,data\raw\normal\Oji_2.jpg,train
+Patimah.jpg,Patimah,normal,0,data\raw\normal\Patimah.jpg,train
+Pujiharti_1.jpg,Pujiharti,normal,0,data\raw\normal\Pujiharti_1.jpg,test
+Pujiharti_2.jpg,Pujiharti,normal,0,data\raw\normal\Pujiharti_2.jpg,test
+Ramsih_1.jpg,Ramsih,normal,0,data\raw\normal\Ramsih_1.jpg,train
+Ramsih_2.jpg,Ramsih,normal,0,data\raw\normal\Ramsih_2.jpg,train
+Rindu Marbun_1.jpg,Rindu Marbun,normal,0,data\raw\normal\Rindu Marbun_1.jpg,train
+Rindu Marbun_2.jpg,Rindu Marbun,normal,0,data\raw\normal\Rindu Marbun_2.jpg,train
+Rini Nurhayati _3.jpg,Rini Nurhayati ,normal,0,data\raw\normal\Rini Nurhayati _3.jpg,train
+Rini Nurhayati _4.jpg,Rini Nurhayati ,normal,0,data\raw\normal\Rini Nurhayati _4.jpg,train
+Risna Yuningsih _1 (1).jpg,Risna Yuningsih _1 (1),normal,0,data\raw\normal\Risna Yuningsih _1 (1).jpg,train
+Risna Yuningsih _2 (1).jpg,Risna Yuningsih _2 (1),normal,0,data\raw\normal\Risna Yuningsih _2 (1).jpg,train
+Risna Yuningsih _3 (1).jpg,Risna Yuningsih _3 (1),normal,0,data\raw\normal\Risna Yuningsih _3 (1).jpg,train
+Ristiawanty_1.jpg,Ristiawanty,normal,0,data\raw\normal\Ristiawanty_1.jpg,train
+Ristiawanty_2.jpg,Ristiawanty,normal,0,data\raw\normal\Ristiawanty_2.jpg,train
+Ristiwanty_1.jpg,Ristiwanty,normal,0,data\raw\normal\Ristiwanty_1.jpg,train
+Ristiwanty_2.jpg,Ristiwanty,normal,0,data\raw\normal\Ristiwanty_2.jpg,train
+Rm. 26.jpg,Rm. 26,normal,0,data\raw\normal\Rm. 26.jpg,train
+rofi ah_1.jpg,rofi ah,normal,0,data\raw\normal\rofi ah_1.jpg,test
+rofi ah_2.jpg,rofi ah,normal,0,data\raw\normal\rofi ah_2.jpg,test
+Rohim_1.jpg,Rohim,normal,0,data\raw\normal\Rohim_1.jpg,test
+Rohim_2.jpg,Rohim,normal,0,data\raw\normal\Rohim_2.jpg,test
+rohini_1.jpg,rohini,normal,0,data\raw\normal\rohini_1.jpg,train
+rohini_2.jpg,rohini,normal,0,data\raw\normal\rohini_2.jpg,train
+Roliah_1.jpg,Roliah,normal,0,data\raw\normal\Roliah_1.jpg,train
+Roliah_2.jpg,Roliah,normal,0,data\raw\normal\Roliah_2.jpg,train
+Romli_1.jpg,Romli,normal,0,data\raw\normal\Romli_1.jpg,train
+Romli_2.jpg,Romli,normal,0,data\raw\normal\Romli_2.jpg,train
+Rt neneng sobriah_1.jpg,Rt neneng sobriah,normal,0,data\raw\normal\Rt neneng sobriah_1.jpg,train
+Rt neneng sobriah_2.jpg,Rt neneng sobriah,normal,0,data\raw\normal\Rt neneng sobriah_2.jpg,train
+Rukoyah.jpg,Rukoyah,normal,0,data\raw\normal\Rukoyah.jpg,train
+Ruslan_1.jpg,Ruslan,normal,0,data\raw\normal\Ruslan_1.jpg,test
+Ruslan_2.jpg,Ruslan,normal,0,data\raw\normal\Ruslan_2.jpg,test
+Ruspendi_1.jpg,Ruspendi,normal,0,data\raw\normal\Ruspendi_1.jpg,train
+Ruspendi_2.jpg,Ruspendi,normal,0,data\raw\normal\Ruspendi_2.jpg,train
+Saepi_1.jpg,Saepi,normal,0,data\raw\normal\Saepi_1.jpg,train
+Saepi_2.jpg,Saepi,normal,0,data\raw\normal\Saepi_2.jpg,train
+Sakib_1.jpg,Sakib,normal,0,data\raw\normal\Sakib_1.jpg,train
+Sakib_2.jpg,Sakib,normal,0,data\raw\normal\Sakib_2.jpg,train
+Sanin_1.jpg,Sanin,normal,0,data\raw\normal\Sanin_1.jpg,val
+Sanin_2.jpg,Sanin,normal,0,data\raw\normal\Sanin_2.jpg,val
+Sarinah_1.jpg,Sarinah,normal,0,data\raw\normal\Sarinah_1.jpg,val
+Sarinah_2.jpg,Sarinah,normal,0,data\raw\normal\Sarinah_2.jpg,val
+Serimah_1.jpg,Serimah,normal,0,data\raw\normal\Serimah_1.jpg,train
+Serimah_2.jpg,Serimah,normal,0,data\raw\normal\Serimah_2.jpg,train
+sherly emilda farida_1.jpg,sherly emilda farida,normal,0,data\raw\normal\sherly emilda farida_1.jpg,train
+sherly emilda farida_2.jpg,sherly emilda farida,normal,0,data\raw\normal\sherly emilda farida_2.jpg,train
+sherly emilda farida_3.jpg,sherly emilda farida,normal,0,data\raw\normal\sherly emilda farida_3.jpg,train
+siti fatimah_1.jpg,siti fatimah,normal,0,data\raw\normal\siti fatimah_1.jpg,train
+siti fatimah_2.jpg,siti fatimah,normal,0,data\raw\normal\siti fatimah_2.jpg,train
+Siti Robi_ah_1.jpg,Siti Robi_ah,normal,0,data\raw\normal\Siti Robi_ah_1.jpg,train
+Siti Robi_ah_2.jpg,Siti Robi_ah,normal,0,data\raw\normal\Siti Robi_ah_2.jpg,train
+Siti Sanimah_1.jpg,Siti Sanimah,normal,0,data\raw\normal\Siti Sanimah_1.jpg,test
+Siti Sanimah_2.jpg,Siti Sanimah,normal,0,data\raw\normal\Siti Sanimah_2.jpg,test
+Sobari_1.jpg,Sobari,normal,0,data\raw\normal\Sobari_1.jpg,test
+Sobari_2.jpg,Sobari,normal,0,data\raw\normal\Sobari_2.jpg,test
+solihin_1.jpg,solihin,normal,0,data\raw\normal\solihin_1.jpg,test
+solihin_2.jpg,solihin,normal,0,data\raw\normal\solihin_2.jpg,test
+solihin_3.jpg,solihin,normal,0,data\raw\normal\solihin_3.jpg,test
+solihin_4.jpg,solihin,normal,0,data\raw\normal\solihin_4.jpg,test
+solihin_5.jpg,solihin,normal,0,data\raw\normal\solihin_5.jpg,test
+solihin_6.jpg,solihin,normal,0,data\raw\normal\solihin_6.jpg,test
+Subaekah_1.jpg,Subaekah,normal,0,data\raw\normal\Subaekah_1.jpg,train
+Subaekah_2.jpg,Subaekah,normal,0,data\raw\normal\Subaekah_2.jpg,train
+Sugiman_1.jpg,Sugiman,normal,0,data\raw\normal\Sugiman_1.jpg,train
+Sugiman_2.jpg,Sugiman,normal,0,data\raw\normal\Sugiman_2.jpg,train
+Suhaenah_1.jpg,Suhaenah,normal,0,data\raw\normal\Suhaenah_1.jpg,train
+Suhaenah_2.jpg,Suhaenah,normal,0,data\raw\normal\Suhaenah_2.jpg,train
+Suheliati_1.jpg,Suheliati,normal,0,data\raw\normal\Suheliati_1.jpg,train
+Suheliati_2.jpg,Suheliati,normal,0,data\raw\normal\Suheliati_2.jpg,train
+Suheliati_3.jpg,Suheliati,normal,0,data\raw\normal\Suheliati_3.jpg,train
+Suherni_1.jpg,Suherni,normal,0,data\raw\normal\Suherni_1.jpg,train
+Suherni_2.jpg,Suherni,normal,0,data\raw\normal\Suherni_2.jpg,train
+Sujiyanto_1.jpg,Sujiyanto,normal,0,data\raw\normal\Sujiyanto_1.jpg,train
+Sujiyanto_2.jpg,Sujiyanto,normal,0,data\raw\normal\Sujiyanto_2.jpg,train
+Sujiyanto_3.jpg,Sujiyanto,normal,0,data\raw\normal\Sujiyanto_3.jpg,train
+Sukmanah_1.jpg,Sukmanah,normal,0,data\raw\normal\Sukmanah_1.jpg,train
+Sukmanah_2.jpg,Sukmanah,normal,0,data\raw\normal\Sukmanah_2.jpg,train
+sukra_1.jpg,sukra,normal,0,data\raw\normal\sukra_1.jpg,train
+sukra_2.jpg,sukra,normal,0,data\raw\normal\sukra_2.jpg,train
+Sulyanah_1.jpg,Sulyanah,normal,0,data\raw\normal\Sulyanah_1.jpg,train
+Sulyanah_2.jpg,Sulyanah,normal,0,data\raw\normal\Sulyanah_2.jpg,train
+sumiati_1.jpg,sumiati,normal,0,data\raw\normal\sumiati_1.jpg,train
+sumiati_2.jpg,sumiati,normal,0,data\raw\normal\sumiati_2.jpg,train
+Suniah.jpg,Suniah,normal,0,data\raw\normal\Suniah.jpg,train
+Supiah_1.jpg,Supiah,normal,0,data\raw\normal\Supiah_1.jpg,val
+Supiah_2.jpg,Supiah,normal,0,data\raw\normal\Supiah_2.jpg,val
+Supiah_3.jpg,Supiah,normal,0,data\raw\normal\Supiah_3.jpg,val
+Suprah_1.jpg,Suprah,normal,0,data\raw\normal\Suprah_1.jpg,train
+Suprah_2.jpg,Suprah,normal,0,data\raw\normal\Suprah_2.jpg,train
+Suyati_1.jpg,Suyati,normal,0,data\raw\normal\Suyati_1.jpg,val
+Suyati_2.jpg,Suyati,normal,0,data\raw\normal\Suyati_2.jpg,val
+tati suhartiati_1.jpg,tati suhartiati,normal,0,data\raw\normal\tati suhartiati_1.jpg,train
+tati suhartiati_2.jpg,tati suhartiati,normal,0,data\raw\normal\tati suhartiati_2.jpg,train
+Titin_1.jpg,Titin,normal,0,data\raw\normal\Titin_1.jpg,train
+Titin_2.jpg,Titin,normal,0,data\raw\normal\Titin_2.jpg,train
+Titin_3.jpg,Titin,normal,0,data\raw\normal\Titin_3.jpg,train
+Tn. muhtar_1.jpg,Tn. muhtar,normal,0,data\raw\normal\Tn. muhtar_1.jpg,train
+Tn. muhtar_2.jpg,Tn. muhtar,normal,0,data\raw\normal\Tn. muhtar_2.jpg,train
+tn. sau faram_1.jpg,tn. sau faram,normal,0,data\raw\normal\tn. sau faram_1.jpg,val
+tn. sau faram_2.jpg,tn. sau faram,normal,0,data\raw\normal\tn. sau faram_2.jpg,val
+Usep Sugiarta _1.jpg,Usep Sugiarta ,normal,0,data\raw\normal\Usep Sugiarta _1.jpg,train
+Usep Sugiarta _2.jpg,Usep Sugiarta ,normal,0,data\raw\normal\Usep Sugiarta _2.jpg,train
+Wang yun_1.jpg,Wang yun,normal,0,data\raw\normal\Wang yun_1.jpg,val
+Wang yun_2.jpg,Wang yun,normal,0,data\raw\normal\Wang yun_2.jpg,val
+Wang yun_3.jpg,Wang yun,normal,0,data\raw\normal\Wang yun_3.jpg,val
+wei mei lian_1.jpg,wei mei lian,normal,0,data\raw\normal\wei mei lian_1.jpg,test
+wei mei lian_2.jpg,wei mei lian,normal,0,data\raw\normal\wei mei lian_2.jpg,test
+Yoesmanah_1.jpg,Yoesmanah,normal,0,data\raw\normal\Yoesmanah_1.jpg,train
+Yoesmanah_2.jpg,Yoesmanah,normal,0,data\raw\normal\Yoesmanah_2.jpg,train
+Zainifah_1.jpg,Zainifah,normal,0,data\raw\normal\Zainifah_1.jpg,train
+Zainifah_2.jpg,Zainifah,normal,0,data\raw\normal\Zainifah_2.jpg,train
+Zulkifli Nasution.jpg,Zulkifli Nasution,normal,0,data\raw\normal\Zulkifli Nasution.jpg,test
+12_1.jpg,12,abnormal,1,data\raw\abnormal\12_1.jpg,test
+12_2.jpg,12,abnormal,1,data\raw\abnormal\12_2.jpg,test
+2_1.jpg,2,abnormal,1,data\raw\abnormal\2_1.jpg,train
+2_2.jpg,2,abnormal,1,data\raw\abnormal\2_2.jpg,train
+5_1.jpg,5,abnormal,1,data\raw\abnormal\5_1.jpg,test
+5_2.jpg,5,abnormal,1,data\raw\abnormal\5_2.jpg,test
+Aben_1.jpg,Aben,abnormal,1,data\raw\abnormal\Aben_1.jpg,train
+AbuBakar_1.jpg,AbuBakar,abnormal,1,data\raw\abnormal\AbuBakar_1.jpg,train
+AbuBakar_2.jpg,AbuBakar,abnormal,1,data\raw\abnormal\AbuBakar_2.jpg,train
+AdeRohyati_1.jpg,AdeRohyati,abnormal,1,data\raw\abnormal\AdeRohyati_1.jpg,train
+AdeRohyati_2.jpg,AdeRohyati,abnormal,1,data\raw\abnormal\AdeRohyati_2.jpg,train
+AdeRohyati_3.jpg,AdeRohyati,abnormal,1,data\raw\abnormal\AdeRohyati_3.jpg,train
+Ahmad_1.jpg,Ahmad,abnormal,1,data\raw\abnormal\Ahmad_1.jpg,val
+Ahmad_2.jpg,Ahmad,abnormal,1,data\raw\abnormal\Ahmad_2.jpg,val
+Alfian_1.jpg,Alfian,abnormal,1,data\raw\abnormal\Alfian_1.jpg,train
+Alfian_2.jpg,Alfian,abnormal,1,data\raw\abnormal\Alfian_2.jpg,train
+Asiah_1.jpg,Asiah,abnormal,1,data\raw\abnormal\Asiah_1.jpg,train
+Asiah_2.jpg,Asiah,abnormal,1,data\raw\abnormal\Asiah_2.jpg,train
+Asmawiyah_1.jpg,Asmawiyah,abnormal,1,data\raw\abnormal\Asmawiyah_1.jpg,test
+Asmawiyah_2.jpg,Asmawiyah,abnormal,1,data\raw\abnormal\Asmawiyah_2.jpg,test
+Bai Mahdi_1.jpg,Bai Mahdi,abnormal,1,data\raw\abnormal\Bai Mahdi_1.jpg,train
+Bai Mahdi_2.jpg,Bai Mahdi,abnormal,1,data\raw\abnormal\Bai Mahdi_2.jpg,train
+Basa_1.jpg,Basa,abnormal,1,data\raw\abnormal\Basa_1.jpg,train
+Basa_2.jpg,Basa,abnormal,1,data\raw\abnormal\Basa_2.jpg,train
+ChenSijiTjin_1.jpg,ChenSijiTjin,abnormal,1,data\raw\abnormal\ChenSijiTjin_1.jpg,train
+ChenSijiTjin_2.jpg,ChenSijiTjin,abnormal,1,data\raw\abnormal\ChenSijiTjin_2.jpg,train
+Dani Hamdani_1.jpg,Dani Hamdani,abnormal,1,data\raw\abnormal\Dani Hamdani_1.jpg,train
+DikiApriadiPutra_1.jpg,DikiApriadiPutra,abnormal,1,data\raw\abnormal\DikiApriadiPutra_1.jpg,val
+DikiApriadiPutra_2.jpg,DikiApriadiPutra,abnormal,1,data\raw\abnormal\DikiApriadiPutra_2.jpg,val
+Eli_1.jpg,Eli,abnormal,1,data\raw\abnormal\Eli_1.jpg,val
+Eli_2.jpg,Eli,abnormal,1,data\raw\abnormal\Eli_2.jpg,val
+Erik Suryaman_1.jpg,Erik Suryaman,abnormal,1,data\raw\abnormal\Erik Suryaman_1.jpg,train
+Erik Suryaman_2.jpg,Erik Suryaman,abnormal,1,data\raw\abnormal\Erik Suryaman_2.jpg,train
+Erik Suryaman_3.jpg,Erik Suryaman,abnormal,1,data\raw\abnormal\Erik Suryaman_3.jpg,train
+"Gojali, H_1.jpg","Gojali, H",abnormal,1,"data\raw\abnormal\Gojali, H_1.jpg",train
+Gouw Hang Peng_1.jpg,Gouw Hang Peng,abnormal,1,data\raw\abnormal\Gouw Hang Peng_1.jpg,train
+Gouw Hang Peng_2.jpg,Gouw Hang Peng,abnormal,1,data\raw\abnormal\Gouw Hang Peng_2.jpg,train
+H Sri_1.jpg,H Sri,abnormal,1,data\raw\abnormal\H Sri_1.jpg,train
+H Sri_2.jpg,H Sri,abnormal,1,data\raw\abnormal\H Sri_2.jpg,train
+H.AchmadAminudin.DRS_1.jpg,H.AchmadAminudin.DRS,abnormal,1,data\raw\abnormal\H.AchmadAminudin.DRS_1.jpg,train
+H.AchmadAminudin.DRS_2.jpg,H.AchmadAminudin.DRS,abnormal,1,data\raw\abnormal\H.AchmadAminudin.DRS_2.jpg,train
+H.OmanAbdulRachman_1.jpg,H.OmanAbdulRachman,abnormal,1,data\raw\abnormal\H.OmanAbdulRachman_1.jpg,train
+H.OmanAbdulRachman_2.jpg,H.OmanAbdulRachman,abnormal,1,data\raw\abnormal\H.OmanAbdulRachman_2.jpg,train
+Hj. Aswanah_1.jpg,Hj. Aswanah,abnormal,1,data\raw\abnormal\Hj. Aswanah_1.jpg,train
+Hj. Mutiah_1.jpg,Hj. Mutiah,abnormal,1,data\raw\abnormal\Hj. Mutiah_1.jpg,train
+Hj. Suamsah_1.jpg,Hj. Suamsah,abnormal,1,data\raw\abnormal\Hj. Suamsah_1.jpg,val
+Hj. Suamsah_2.jpg,Hj. Suamsah,abnormal,1,data\raw\abnormal\Hj. Suamsah_2.jpg,val
+Hj. Surtini_1.jpg,Hj. Surtini,abnormal,1,data\raw\abnormal\Hj. Surtini_1.jpg,train
+HjNani_1.jpg,HjNani,abnormal,1,data\raw\abnormal\HjNani_1.jpg,train
+HjNani_2.jpg,HjNani,abnormal,1,data\raw\abnormal\HjNani_2.jpg,train
+HjNurhaeti_1.jpg,HjNurhaeti,abnormal,1,data\raw\abnormal\HjNurhaeti_1.jpg,test
+HjNurhaeti_2.jpg,HjNurhaeti,abnormal,1,data\raw\abnormal\HjNurhaeti_2.jpg,test
+HjOnih_1.jpg,HjOnih,abnormal,1,data\raw\abnormal\HjOnih_1.jpg,train
+HjSaproi_1.jpg,HjSaproi,abnormal,1,data\raw\abnormal\HjSaproi_1.jpg,train
+HjSaproi_2.jpg,HjSaproi,abnormal,1,data\raw\abnormal\HjSaproi_2.jpg,train
+Irawati_1.jpg,Irawati,abnormal,1,data\raw\abnormal\Irawati_1.jpg,train
+Irawati_2.jpg,Irawati,abnormal,1,data\raw\abnormal\Irawati_2.jpg,train
+Jamilah.jpg,Jamilah,abnormal,1,data\raw\abnormal\Jamilah.jpg,val
+Juwariyah_1.jpg,Juwariyah,abnormal,1,data\raw\abnormal\Juwariyah_1.jpg,train
+Juwariyah_2.jpg,Juwariyah,abnormal,1,data\raw\abnormal\Juwariyah_2.jpg,train
+Kamsin_1.jpg,Kamsin,abnormal,1,data\raw\abnormal\Kamsin_1.jpg,train
+Kamsin_2.jpg,Kamsin,abnormal,1,data\raw\abnormal\Kamsin_2.jpg,train
+Kamsin_3.jpg,Kamsin,abnormal,1,data\raw\abnormal\Kamsin_3.jpg,train
+Kanah_1.jpg,Kanah,abnormal,1,data\raw\abnormal\Kanah_1.jpg,train
+Kanah_2.jpg,Kanah,abnormal,1,data\raw\abnormal\Kanah_2.jpg,train
+Karsinah_1.jpg,Karsinah,abnormal,1,data\raw\abnormal\Karsinah_1.jpg,train
+Karsinah_2.jpg,Karsinah,abnormal,1,data\raw\abnormal\Karsinah_2.jpg,train
+Karwi_1.jpg,Karwi,abnormal,1,data\raw\abnormal\Karwi_1.jpg,train
+Khusna_1.jpg,Khusna,abnormal,1,data\raw\abnormal\Khusna_1.jpg,test
+Khusna_2.jpg,Khusna,abnormal,1,data\raw\abnormal\Khusna_2.jpg,test
+M Ziyan Hidayatullah_1.jpg,M Ziyan Hidayatullah,abnormal,1,data\raw\abnormal\M Ziyan Hidayatullah_1.jpg,train
+M. Hayat_1.jpg,M. Hayat,abnormal,1,data\raw\abnormal\M. Hayat_1.jpg,train
+M. Hayat_2.jpg,M. Hayat,abnormal,1,data\raw\abnormal\M. Hayat_2.jpg,train
+Madropi_1.jpg,Madropi,abnormal,1,data\raw\abnormal\Madropi_1.jpg,train
+Marjuki (38)_1.jpg,Marjuki (38),abnormal,1,data\raw\abnormal\Marjuki (38)_1.jpg,val
+Marjuki(1)_1.jpg,Marjuki(1),abnormal,1,data\raw\abnormal\Marjuki(1)_1.jpg,train
+Marjuki(1)_2.jpg,Marjuki(1),abnormal,1,data\raw\abnormal\Marjuki(1)_2.jpg,train
+Marjuki1.jpg,Marjuki1,abnormal,1,data\raw\abnormal\Marjuki1.jpg,val
+Marjuki2.jpg,Marjuki2,abnormal,1,data\raw\abnormal\Marjuki2.jpg,train
+Marjuki_1.jpg,Marjuki,abnormal,1,data\raw\abnormal\Marjuki_1.jpg,val
+Marjuki_2.jpg,Marjuki,abnormal,1,data\raw\abnormal\Marjuki_2.jpg,val
+Marnah_1.jpg,Marnah,abnormal,1,data\raw\abnormal\Marnah_1.jpg,train
+Marnah_2.jpg,Marnah,abnormal,1,data\raw\abnormal\Marnah_2.jpg,train
+Marnah_3.jpg,Marnah,abnormal,1,data\raw\abnormal\Marnah_3.jpg,train
+Martini _1.jpg,Martini ,abnormal,1,data\raw\abnormal\Martini _1.jpg,train
+Martini _2.jpg,Martini ,abnormal,1,data\raw\abnormal\Martini _2.jpg,train
+Marti_1.jpg,Marti,abnormal,1,data\raw\abnormal\Marti_1.jpg,val
+Marti_2.jpg,Marti,abnormal,1,data\raw\abnormal\Marti_2.jpg,val
+Maryani_1.jpg,Maryani,abnormal,1,data\raw\abnormal\Maryani_1.jpg,train
+Masni_1.jpg,Masni,abnormal,1,data\raw\abnormal\Masni_1.jpg,train
+Masni_2.jpg,Masni,abnormal,1,data\raw\abnormal\Masni_2.jpg,train
+Merry Elfrida_1.jpg,Merry Elfrida,abnormal,1,data\raw\abnormal\Merry Elfrida_1.jpg,val
+Miah.jpg,Miah,abnormal,1,data\raw\abnormal\Miah.jpg,train
+Minan_1.jpg,Minan,abnormal,1,data\raw\abnormal\Minan_1.jpg,train
+Minan_2.jpg,Minan,abnormal,1,data\raw\abnormal\Minan_2.jpg,train
+Minan_3.jpg,Minan,abnormal,1,data\raw\abnormal\Minan_3.jpg,train
+MuhammadFajri_1.jpg,MuhammadFajri,abnormal,1,data\raw\abnormal\MuhammadFajri_1.jpg,train
+MuhammadFajri_2.jpg,MuhammadFajri,abnormal,1,data\raw\abnormal\MuhammadFajri_2.jpg,train
+Murni_1.jpg,Murni,abnormal,1,data\raw\abnormal\Murni_1.jpg,val
+Murni_2.jpg,Murni,abnormal,1,data\raw\abnormal\Murni_2.jpg,val
+Muslim_1.jpg,Muslim,abnormal,1,data\raw\abnormal\Muslim_1.jpg,train
+Mustatia_1.jpg,Mustatia,abnormal,1,data\raw\abnormal\Mustatia_1.jpg,train
+Mustatia_2.jpg,Mustatia,abnormal,1,data\raw\abnormal\Mustatia_2.jpg,train
+Mutmainah_1.jpg,Mutmainah,abnormal,1,data\raw\abnormal\Mutmainah_1.jpg,train
+Mutmainah_2.jpg,Mutmainah,abnormal,1,data\raw\abnormal\Mutmainah_2.jpg,train
+Namin_1.jpg,Namin,abnormal,1,data\raw\abnormal\Namin_1.jpg,train
+Nani Sumarni_1.jpg,Nani Sumarni,abnormal,1,data\raw\abnormal\Nani Sumarni_1.jpg,train
+Nawawi_1.jpg,Nawawi,abnormal,1,data\raw\abnormal\Nawawi_1.jpg,test
+No 29_1.jpg,No 29,abnormal,1,data\raw\abnormal\No 29_1.jpg,val
+No 29_2.jpg,No 29,abnormal,1,data\raw\abnormal\No 29_2.jpg,val
+No name 1.jpg,No name 1,abnormal,1,data\raw\abnormal\No name 1.jpg,train
+No Name 2_1.jpg,No Name 2,abnormal,1,data\raw\abnormal\No Name 2_1.jpg,train
+Nurhayati_1.jpg,Nurhayati,abnormal,1,data\raw\abnormal\Nurhayati_1.jpg,train
+Nurhayati_2.jpg,Nurhayati,abnormal,1,data\raw\abnormal\Nurhayati_2.jpg,train
+Nurhayati_3.jpg,Nurhayati,abnormal,1,data\raw\abnormal\Nurhayati_3.jpg,train
+Nurhayati_4.jpg,Nurhayati,abnormal,1,data\raw\abnormal\Nurhayati_4.jpg,train
+NY ENA S_1.jpg,NY ENA S,abnormal,1,data\raw\abnormal\NY ENA S_1.jpg,train
+NY ENA S_2.jpg,NY ENA S,abnormal,1,data\raw\abnormal\NY ENA S_2.jpg,train
+Ny Sofiah_1.jpg,Ny Sofiah,abnormal,1,data\raw\abnormal\Ny Sofiah_1.jpg,train
+Ny Sofiah_2.jpg,Ny Sofiah,abnormal,1,data\raw\abnormal\Ny Sofiah_2.jpg,train
+Ny. Aj-Masanah_1.jpg,Ny. Aj-Masanah,abnormal,1,data\raw\abnormal\Ny. Aj-Masanah_1.jpg,train
+Ny. Aj-Masanah_2.jpg,Ny. Aj-Masanah,abnormal,1,data\raw\abnormal\Ny. Aj-Masanah_2.jpg,train
+Ny.EJunariah.H_1.jpg,Ny.EJunariah.H,abnormal,1,data\raw\abnormal\Ny.EJunariah.H_1.jpg,train
+Opiq Piqhi_1.jpg,Opiq Piqhi,abnormal,1,data\raw\abnormal\Opiq Piqhi_1.jpg,test
+Opiq Piqhi_2.jpg,Opiq Piqhi,abnormal,1,data\raw\abnormal\Opiq Piqhi_2.jpg,test
+Opiq Piqhi_3.jpg,Opiq Piqhi,abnormal,1,data\raw\abnormal\Opiq Piqhi_3.jpg,test
+Ratna_1.jpg,Ratna,abnormal,1,data\raw\abnormal\Ratna_1.jpg,test
+Ratna_2.jpg,Ratna,abnormal,1,data\raw\abnormal\Ratna_2.jpg,test
+Ratu Subaedah_1.jpg,Ratu Subaedah,abnormal,1,data\raw\abnormal\Ratu Subaedah_1.jpg,train
+Ratum Marsela_1.jpg,Ratum Marsela,abnormal,1,data\raw\abnormal\Ratum Marsela_1.jpg,val
+Ratum Marsela_2.jpg,Ratum Marsela,abnormal,1,data\raw\abnormal\Ratum Marsela_2.jpg,val
+Rochayati NY_1.jpg,Rochayati NY,abnormal,1,data\raw\abnormal\Rochayati NY_1.jpg,test
+Rohani_1.jpg,Rohani,abnormal,1,data\raw\abnormal\Rohani_1.jpg,val
+RT Apiyah_1.jpg,RT Apiyah,abnormal,1,data\raw\abnormal\RT Apiyah_1.jpg,train
+RT Apiyah_2.jpg,RT Apiyah,abnormal,1,data\raw\abnormal\RT Apiyah_2.jpg,train
+Saepi_1.jpg,Saepi,abnormal,1,data\raw\abnormal\Saepi_1.jpg,train
+Saepi_2.jpg,Saepi,abnormal,1,data\raw\abnormal\Saepi_2.jpg,train
+Samanudin_1.jpg,Samanudin,abnormal,1,data\raw\abnormal\Samanudin_1.jpg,test
+Samanudin_2.jpg,Samanudin,abnormal,1,data\raw\abnormal\Samanudin_2.jpg,test
+Samanudin_3.jpg,Samanudin,abnormal,1,data\raw\abnormal\Samanudin_3.jpg,test
+Samawiyah_1.jpg,Samawiyah,abnormal,1,data\raw\abnormal\Samawiyah_1.jpg,train
+Samawiyah_2.jpg,Samawiyah,abnormal,1,data\raw\abnormal\Samawiyah_2.jpg,train
+Sanir_1.jpg,Sanir,abnormal,1,data\raw\abnormal\Sanir_1.jpg,train
+Sarki_1.jpg,Sarki,abnormal,1,data\raw\abnormal\Sarki_1.jpg,train
+Sarki_2.jpg,Sarki,abnormal,1,data\raw\abnormal\Sarki_2.jpg,train
+Sartiah_1.jpg,Sartiah,abnormal,1,data\raw\abnormal\Sartiah_1.jpg,val
+Sartiah_2.jpg,Sartiah,abnormal,1,data\raw\abnormal\Sartiah_2.jpg,val
+Sarwita_1.jpg,Sarwita,abnormal,1,data\raw\abnormal\Sarwita_1.jpg,train
+Sarwita_2.jpg,Sarwita,abnormal,1,data\raw\abnormal\Sarwita_2.jpg,train
+Siti Fatimah_1.jpg,Siti Fatimah,abnormal,1,data\raw\abnormal\Siti Fatimah_1.jpg,train
+Siti Rohmah_1.jpg,Siti Rohmah,abnormal,1,data\raw\abnormal\Siti Rohmah_1.jpg,train
+SitiSolihat_1.jpg,SitiSolihat,abnormal,1,data\raw\abnormal\SitiSolihat_1.jpg,val
+SitiSolihat_2.jpg,SitiSolihat,abnormal,1,data\raw\abnormal\SitiSolihat_2.jpg,val
+Somad_1.jpg,Somad,abnormal,1,data\raw\abnormal\Somad_1.jpg,train
+Somad_2.jpg,Somad,abnormal,1,data\raw\abnormal\Somad_2.jpg,train
+St. Komariah_1.jpg,St. Komariah,abnormal,1,data\raw\abnormal\St. Komariah_1.jpg,train
+St. Komariah_2.jpg,St. Komariah,abnormal,1,data\raw\abnormal\St. Komariah_2.jpg,train
+St. Rohayah_1.jpg,St. Rohayah,abnormal,1,data\raw\abnormal\St. Rohayah_1.jpg,train
+Suadah_1.jpg,Suadah,abnormal,1,data\raw\abnormal\Suadah_1.jpg,test
+Suadah_2.jpg,Suadah,abnormal,1,data\raw\abnormal\Suadah_2.jpg,test
+Suhaemi_1.jpg,Suhaemi,abnormal,1,data\raw\abnormal\Suhaemi_1.jpg,train
+Suhaemi_2.jpg,Suhaemi,abnormal,1,data\raw\abnormal\Suhaemi_2.jpg,train
+Suharni_1.jpg,Suharni,abnormal,1,data\raw\abnormal\Suharni_1.jpg,train
+Suharni_2.jpg,Suharni,abnormal,1,data\raw\abnormal\Suharni_2.jpg,train
+Sulasih_1.jpg,Sulasih,abnormal,1,data\raw\abnormal\Sulasih_1.jpg,test
+Sulasih_2.jpg,Sulasih,abnormal,1,data\raw\abnormal\Sulasih_2.jpg,test
+Sumiati _1.jpg,Sumiati ,abnormal,1,data\raw\abnormal\Sumiati _1.jpg,train
+Sumiati _2.jpg,Sumiati ,abnormal,1,data\raw\abnormal\Sumiati _2.jpg,train
+Suparman_1.jpg,Suparman,abnormal,1,data\raw\abnormal\Suparman_1.jpg,train
+Suparman_2.jpg,Suparman,abnormal,1,data\raw\abnormal\Suparman_2.jpg,train
+Supriyati_1.jpg,Supriyati,abnormal,1,data\raw\abnormal\Supriyati_1.jpg,train
+Supriyati_2.jpg,Supriyati,abnormal,1,data\raw\abnormal\Supriyati_2.jpg,train
+syafei_1.jpg,syafei,abnormal,1,data\raw\abnormal\syafei_1.jpg,train
+syafei_2.jpg,syafei,abnormal,1,data\raw\abnormal\syafei_2.jpg,train
+Tarsem_1.jpg,Tarsem,abnormal,1,data\raw\abnormal\Tarsem_1.jpg,val
+Tarsem_2.jpg,Tarsem,abnormal,1,data\raw\abnormal\Tarsem_2.jpg,val
+Tarsiwan.jpg,Tarsiwan,abnormal,1,data\raw\abnormal\Tarsiwan.jpg,test
+Tn Karna _1.jpg,Tn Karna ,abnormal,1,data\raw\abnormal\Tn Karna _1.jpg,train
+Tn. Alwani_1.jpg,Tn. Alwani,abnormal,1,data\raw\abnormal\Tn. Alwani_1.jpg,train
+Tn.Khaerdi_1.jpg,Tn.Khaerdi,abnormal,1,data\raw\abnormal\Tn.Khaerdi_1.jpg,train
+Tn.Khaerdi_2.jpg,Tn.Khaerdi,abnormal,1,data\raw\abnormal\Tn.Khaerdi_2.jpg,train
+TutunSaprudin_1.jpg,TutunSaprudin,abnormal,1,data\raw\abnormal\TutunSaprudin_1.jpg,train
+TutunSaprudin_2.jpg,TutunSaprudin,abnormal,1,data\raw\abnormal\TutunSaprudin_2.jpg,train
+Ukon H_1.jpg,Ukon H,abnormal,1,data\raw\abnormal\Ukon H_1.jpg,train
+Ukon H_2.jpg,Ukon H,abnormal,1,data\raw\abnormal\Ukon H_2.jpg,train
+Ulpah_1.jpg,Ulpah,abnormal,1,data\raw\abnormal\Ulpah_1.jpg,test
+Ulpah_2.jpg,Ulpah,abnormal,1,data\raw\abnormal\Ulpah_2.jpg,test
+Umah_1.jpg,Umah,abnormal,1,data\raw\abnormal\Umah_1.jpg,test
+Umah_2.jpg,Umah,abnormal,1,data\raw\abnormal\Umah_2.jpg,test
+Umar_1.jpg,Umar,abnormal,1,data\raw\abnormal\Umar_1.jpg,test
+Umar_2.jpg,Umar,abnormal,1,data\raw\abnormal\Umar_2.jpg,test
+Umih Mintarsih_1.jpg,Umih Mintarsih,abnormal,1,data\raw\abnormal\Umih Mintarsih_1.jpg,val
+YayahTawiyah_1.jpg,YayahTawiyah,abnormal,1,data\raw\abnormal\YayahTawiyah_1.jpg,train
+YayahTawiyah_2.jpg,YayahTawiyah,abnormal,1,data\raw\abnormal\YayahTawiyah_2.jpg,train
+Yudi Alamsyah_1.jpg,Yudi Alamsyah,abnormal,1,data\raw\abnormal\Yudi Alamsyah_1.jpg,test
+Yudi Alamsyah_2.jpg,Yudi Alamsyah,abnormal,1,data\raw\abnormal\Yudi Alamsyah_2.jpg,test
+YuliAndawati_1.jpg,YuliAndawati,abnormal,1,data\raw\abnormal\YuliAndawati_1.jpg,train
+YuliAndawati_2.jpg,YuliAndawati,abnormal,1,data\raw\abnormal\YuliAndawati_2.jpg,train
+YuliAndawati_3.jpg,YuliAndawati,abnormal,1,data\raw\abnormal\YuliAndawati_3.jpg,train
+Yuni Yati_1.jpg,Yuni Yati,abnormal,1,data\raw\abnormal\Yuni Yati_1.jpg,train
+Yuni Yati_2.jpg,Yuni Yati,abnormal,1,data\raw\abnormal\Yuni Yati_2.jpg,train
+Yuni Yati_3.jpg,Yuni Yati,abnormal,1,data\raw\abnormal\Yuni Yati_3.jpg,train
+Zaini_1.jpg,Zaini,abnormal,1,data\raw\abnormal\Zaini_1.jpg,train
+Zaini_2.jpg,Zaini,abnormal,1,data\raw\abnormal\Zaini_2.jpg,train

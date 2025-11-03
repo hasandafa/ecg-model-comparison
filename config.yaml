@@ -1,0 +1,286 @@
+# ECG Heart Disorder Classification - Complete Configuration
+seed: 42
+
+data:
+  raw_dir: 'data/raw'
+  processed_dir: 'data/processed'
+  metadata_dir: 'data/metadata'
+  results_dir: 'results'
+  normal_folder: 'normal'
+  abnormal_folder: 'abnormal'
+
+split:
+  method: 'patient_wise'
+  test_size: 0.15
+  val_size: 0.15
+  n_folds: 5
+  cv_method: 'StratifiedGroupKFold'
+  stratify: true
+
+preprocessing:
+  target_size: [224, 224]
+  grayscale: true
+  clahe:
+    enabled: true
+    clip_limit: 2.0
+    tile_grid_size: [8, 8]
+  normalize: true
+  convert_to_3channel_for_pretrained: true
+  save_preprocessed: true
+
+augmentation:
+  enabled: true
+  rotation_range: 5
+  width_shift_range: 0.05
+  height_shift_range: 0.05
+  zoom_range: 0.05
+  shear_range: 0.0
+  horizontal_flip: false
+  vertical_flip: false
+  fill_mode: 'nearest'
+  brightness_range: [0.95, 1.05]
+  gaussian_noise:
+    enabled: true
+    mean: 0.0
+    stddev: 0.01
+  gaussian_blur:
+    enabled: true
+    kernel_size: 3
+    sigma_range: [0.1, 0.5]
+  augment_minority_more: true
+  minority_augmentation_factor: 1.5
+
+training:
+  batch_size: 16
+  epochs: 100
+  optimizer:
+    type: 'adam'
+    learning_rate: 0.0001
+    beta_1: 0.9
+    beta_2: 0.999
+    epsilon: 1.0e-07
+    amsgrad: false
+  lr_scheduler:
+    enabled: true
+    type: 'ReduceLROnPlateau'
+    monitor: 'val_loss'
+    mode: 'min'
+    factor: 0.5
+    patience: 5
+    min_lr: 1.0e-07
+    verbose: true
+  early_stopping:
+    enabled: true
+    monitor: 'val_loss'
+    mode: 'min'
+    patience: 15
+    min_delta: 0.001
+    restore_best_weights: true
+    verbose: true
+  regularization:
+    dropout: 0.5
+    l2_weight_decay: 0.0001
+  loss_function: 'binary_crossentropy'
+  metrics:
+    - 'accuracy'
+    - 'AUC'
+    - 'Precision'
+    - 'Recall'
+  class_weights: 'balanced'
+  checkpoint:
+    enabled: true
+    monitor: 'val_loss'
+    mode: 'min'
+    save_best_only: true
+    save_weights_only: false
+
+models:
+  enabled_models:
+    - 'svm'
+    - 'custom_cnn'
+    - 'vgg16'
+    - 'resnet50'
+    - 'inception_v3'
+    - 'xception'
+  svm:
+    feature_extraction:
+      method: 'vgg16_fc2'
+      pretrained_weights: 'imagenet'
+      layer_name: 'fc2'
+      feature_dim: 4096
+    scaler: 'StandardScaler'
+    kernel: 'rbf'
+    C: 10.0
+    gamma: 'scale'
+    probability: true
+    class_weight: 'balanced'
+    max_iter: -1
+    random_state: 42
+  custom_cnn:
+    input_shape: [224, 224, 1]
+    conv_blocks:
+      - filters: 32
+        kernel_size: [3, 3]
+        activation: 'relu'
+        batch_norm: true
+        pool_size: [2, 2]
+        dropout: 0.25
+      - filters: 64
+        kernel_size: [3, 3]
+        activation: 'relu'
+        batch_norm: true
+        pool_size: [2, 2]
+        dropout: 0.25
+      - filters: 128
+        kernel_size: [3, 3]
+        activation: 'relu'
+        batch_norm: true
+        pool_size: [2, 2]
+        dropout: 0.25
+    dense_layers:
+      - units: 256
+        activation: 'relu'
+        dropout: 0.5
+    output_activation: 'sigmoid'
+  transfer_learning:
+    input_shape: [224, 224, 3]
+    pretrained_weights: 'imagenet'
+    include_top: false
+    freeze_base: true
+    pooling: 'global_average'
+    dense_units: 256
+    dense_activation: 'relu'
+    dropout: 0.5
+    output_activation: 'sigmoid'
+    fine_tuning:
+      enabled: false
+      unfreeze_layers: 'top_50'
+      learning_rate: 0.00001
+
+evaluation:
+  metrics:
+    - 'accuracy'
+    - 'balanced_accuracy'
+    - 'precision'
+    - 'recall'
+    - 'f1_score'
+    - 'specificity'
+    - 'roc_auc'
+    - 'pr_auc'
+    - 'confusion_matrix'
+  per_class_metrics: true
+  average_types:
+    - 'macro'
+    - 'weighted'
+  statistical_tests:
+    enabled: true
+    mcnemar:
+      enabled: true
+      exact: true
+      correction: true
+    confidence_intervals:
+      enabled: true
+      confidence_level: 0.95
+      method: 't_distribution'
+    significance_levels:
+      - 0.05
+      - 0.01
+      - 0.001
+  cv_aggregation:
+    report_mean_std: true
+    report_confidence_interval: true
+    decimal_places: 3
+
+visualization:
+  style: 'seaborn-v0_8-darkgrid'
+  context: 'paper'
+  dpi: 300
+  format: 'png'
+  figsize:
+    single: [8, 6]
+    double: [12, 6]
+    triple: [15, 5]
+    large: [10, 8]
+  palette: 'Set2'
+  font_sizes:
+    title: 14
+    label: 12
+    tick: 10
+    legend: 10
+  figures:
+    - name: 'preprocessing_pipeline'
+      type: 'flowchart'
+      description: 'Visual flowchart of preprocessing steps'
+    - name: 'data_distribution'
+      type: 'bar_chart'
+      description: 'Normal vs abnormal image counts'
+    - name: 'patient_distribution'
+      type: 'histogram'
+      description: 'Images per patient distribution'
+    - name: 'augmentation_examples'
+      type: 'grid'
+      description: 'Original + augmented versions (6 examples)'
+      n_examples: 6
+    - name: 'training_curves'
+      type: 'line_plot'
+      description: 'Loss and accuracy curves per model'
+      save_per_model: true
+    - name: 'confusion_matrices'
+      type: 'heatmap'
+      description: 'Normalized confusion matrices'
+      save_per_model: true
+      normalize: true
+    - name: 'roc_curves_combined'
+      type: 'line_plot'
+      description: 'All models ROC curves on one plot'
+    - name: 'pr_curves_combined'
+      type: 'line_plot'
+      description: 'All models Precision-Recall curves'
+    - name: 'performance_comparison_boxplot'
+      type: 'boxplot'
+      description: 'Box plots comparing all models across folds'
+    - name: 'performance_comparison_barplot'
+      type: 'bar_chart'
+      description: 'Mean performance with error bars'
+    - name: 'statistical_heatmap'
+      type: 'heatmap'
+      description: 'P-values from pairwise McNemar tests'
+
+logging:
+  level: 'INFO'
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  log_to_file: true
+  log_file: 'pipeline.log'
+  log_to_console: true
+  use_progress_bars: true
+
+computation:
+  use_gpu: false
+  gpu_memory_growth: false
+  n_jobs: -1
+  tf_deterministic_ops: false
+  mixed_precision: false
+
+reproducibility:
+  set_seeds: true
+  seed: 42
+  save_config: true
+  save_splits: true
+  save_patient_mapping: true
+  save_preprocessed_images: true
+  save_features: true
+  save_models: true
+  save_predictions: true
+  save_metrics: true
+  track_versions: true
+  save_environment: true
+
+execution:
+  steps:
+    create_patient_mapping: true
+    preprocess: true
+    train_cv: true
+    evaluate: true
+    visualize: true
+  skip_if_exists: false
+  verbose: true

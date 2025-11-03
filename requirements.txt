@@ -1,0 +1,86 @@
+# =============================================================================
+# ECG Heart Disorder Classification - Exact Dependency Versions
+# Addresses Reviewer D-18: Complete reproducibility requirements
+# =============================================================================
+
+# Deep Learning Framework
+tensorflow
+keras
+
+# Machine Learning
+scikit-learn
+scikit-image
+
+# Computer Vision
+opencv-python
+
+# Numerical Computing
+numpy
+scipy
+
+# Data Manipulation
+pandas
+
+# Visualization
+matplotlib
+seaborn
+
+# Progress Bars
+tqdm
+
+# Configuration Management
+pyyaml
+
+# Statistical Tests
+statsmodels
+
+# Image Augmentation (alternative to Keras)
+imgaug
+albumentations
+
+# Utilities
+pillow
+python-dateutil
+
+# Jupyter (for demo notebook)
+jupyter
+ipykernel
+ipywidgets
+
+# Performance Monitoring
+psutil
+
+# File Management
+pathlib2
+
+# Logging
+python-json-logger
+
+# Type Hints
+typing-extensions
+
+# Testing (optional, for development)
+pytest
+pytest-cov
+
+# Code Quality (optional, for development)
+black
+flake8
+isort
+
+# =============================================================================
+# Installation Notes
+# =============================================================================
+# 
+# 1. Create virtual environment:
+#    python -m venv venv
+#    source venv/bin/activate  # On Windows: venv\Scripts\activate
+# 
+# 2. Upgrade pip:
+#    python.exe -m pip install --upgrade pip
+# 
+# 3. Install dependencies:
+#    pip install -r requirements.txt
+# 
+# 4. Verify TensorFlow GPU support (if using GPU):
+#    python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"

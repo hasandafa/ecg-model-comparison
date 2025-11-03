@@ -1,0 +1,108 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data directories (large files)
+data/raw/
+data/processed/
+
+# Results (optional - comment out if you want to track)
+results/models/*.h5
+results/models/*.pkl
+results/svm_features/**/*.npy
+results/figures/*.png
+
+# Keep directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!results/models/.gitkeep
+!results/svm_features/.gitkeep
+!results/figures/.gitkeep
+
+# Logs
+*.log
+pipeline.log
+
+# TensorFlow
+*.ckpt
+*.pb
+checkpoint
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Environment variables
+.env
+.env.local
+
+# Backup files
+*.bak
+*.backup
+
+# Large model files (if not using Git LFS)
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Specific scripts
+optimize_for_cpu.py
+pipeline.log
