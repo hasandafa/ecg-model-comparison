@@ -1,0 +1,48 @@
+================================================================================
+                         FINAL ANALYSIS REPORT
+================================================================================
+
+BEST PERFORMERS BY METRIC:
+--------------------------------------------------------------------------------
+Best Overall (AUC-ROC): SVM = 0.8531
+Best Accuracy:          INCEPTION_V3 = 0.8261
+Best F1-Score:          INCEPTION_V3 = 0.7241
+Best Recall:            INCEPTION_V3 = 0.6364
+Best Precision:         SVM = 0.9333
+
+COMPLETE RESULTS:
+--------------------------------------------------------------------------------
+       Model  Accuracy  Precision  Recall  Specificity  F1-Score  AUC-ROC
+         SVM    0.7826     0.9333  0.4242       0.9831    0.5833   0.8531
+       VGG16    0.7935     0.7917  0.5758       0.9153    0.6667   0.8505
+    RESNET50    0.7609     0.8667  0.3939       0.9661    0.5417   0.8372
+  CUSTOM_CNN    0.7500     0.7083  0.5152       0.8814    0.5965   0.8146
+    XCEPTION    0.8043     0.8571  0.5455       0.9492    0.6667   0.8084
+INCEPTION_V3    0.8261     0.8400  0.6364       0.9322    0.7241   0.8079
+
+RECOMMENDATIONS:
+--------------------------------------------------------------------------------
+1. Model Selection:
+   • Primary recommendation: SVM (highest AUC-ROC)
+   • Alternative: INCEPTION_V3 (best F1-Score for balanced performance)
+
+2. Improving Recall:
+   • Consider adjusting decision threshold to favor sensitivity
+   • Use ensemble of top 3 models for better abnormality detection
+   • Implement confidence-based referral system
+
+3. Clinical Deployment Strategy:
+   • Use high-sensitivity mode for screening (lower threshold)
+   • Use high-specificity mode for confirmatory analysis
+   • Flag low-confidence predictions for manual review
+
+4. Dataset Considerations:
+   • Test set: 92 images, 33 abnormal, 59 normal
+   • Consider collecting more abnormal cases to improve recall
+   • Validate on external dataset before clinical deployment
+
+5. Future Work:
+   • Implement explainable AI (Grad-CAM) to highlight abnormal regions
+   • Create ensemble model combining top performers
+   • Conduct clinical validation study with cardiologists
+   • Develop confidence scoring system for predictions

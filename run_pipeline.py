@@ -180,15 +180,18 @@ class ECGPipeline:
         print("="*70)
         print("Addresses Reviewer D-16, D-26:")
         print("  - Comprehensive metrics")
-        print("  - Statistical significance tests (McNemar)")
+        print("  - Statistical significance tests")
         print("  - Confidence intervals\n")
         
         try:
             # Create summary report
             summary = self.evaluator.create_summary_report()
             
+            # CREATE STATISTICAL COMPARISONS
+            stat_comparisons = self.evaluator.create_statistical_comparisons()
+            
             print("✅ Step 5 Complete: Evaluation and statistical testing done")
-            return summary
+            return summary, stat_comparisons
             
         except Exception as e:
             logger.error(f"Error in Step 5: {e}")

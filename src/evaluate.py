@@ -196,9 +196,105 @@ class ECGEvaluator:
             'significant': result.pvalue < 0.05
         }
     
+    def create_statistical_comparisons(self) -> pd.DataFrame:
+        """
+        Create statistical comparisons between all models.
+        Uses paired t-test on accuracy across CV folds.
+        
+        Addresses Reviewer D-16: Statistical significance tests
+        
+        Returns:
+            DataFrame with pairwise statistical comparisons
+        """
+        print(f"\n{'='*70}")
+        print("STATISTICAL SIGNIFICANCE TESTING")
+        print(f"{'='*70}")
+        print("Addresses Reviewer D-16, D-26: Pairwise model comparisons")
+        print("Method: Paired t-test on accuracy across 5-fold CV\n")
+        
+        # Load all CV results
+        cv_results = {}
+        model_files = list(self.metrics_dir.glob('*_cv_results.csv'))
+        
+        for model_file in model_files:
+            if model_file.stem != 'all_models_cv_results':
+                model_name = model_file.stem.replace('_cv_results', '')
+                cv_results[model_name] = pd.read_csv(model_file)
+                print(f"✓ Loaded CV results for: {model_name}")
+        
+        if len(cv_results) < 2:
+            print("\n⚠️  Warning: Need at least 2 models for comparison")
+            return pd.DataFrame()
+        
+        print(f"\nPerforming pairwise comparisons ({len(cv_results)} models)...\n")
+        
+        # Pairwise comparisons
+        comparisons = []
+        models = sorted(list(cv_results.keys()))
+        
+        for i, model1 in enumerate(models):
+            for model2 in models[i+1:]:
+                # Get accuracies from each fold
+                acc1 = cv_results[model1]['accuracy'].values
+                acc2 = cv_results[model2]['accuracy'].values
+                
+                # Paired t-test
+                t_stat, p_val = stats.ttest_rel(acc1, acc2)
+                
+                # Mean difference
+                mean_diff = acc1.mean() - acc2.mean()
+                
+                # Determine significance level
+                if p_val < 0.001:
+                    sig = '***'
+                elif p_val < 0.01:
+                    sig = '**'
+                elif p_val < 0.05:
+                    sig = '*'
+                else:
+                    sig = 'ns'
+                
+                comparisons.append({
+                    'model_1': model1,
+                    'model_2': model2,
+                    'mean_diff': mean_diff,
+                    't_statistic': t_stat,
+                    'p_value': p_val,
+                    'significant': p_val < 0.05,
+                    'significance_level': sig
+                })
+                
+                # Print comparison
+                print(f"{model1:15} vs {model2:15} | "
+                      f"Δ={mean_diff:+.4f} | p={p_val:.4f} {sig}")
+        
+        # Create DataFrame
+        comp_df = pd.DataFrame(comparisons)
+        
+        # Save to CSV
+        comp_path = self.metrics_dir / 'statistical_comparisons.csv'
+        comp_df.to_csv(comp_path, index=False)
+        
+        print(f"\n✅ Saved: {comp_path}")
+        print(f"{'='*70}\n")
+        
+        # Summary statistics
+        n_comparisons = len(comp_df)
+        n_significant = comp_df['significant'].sum()
+        
+        print(f"Summary:")
+        print(f"  Total comparisons: {n_comparisons}")
+        print(f"  Significant (p<0.05): {n_significant} ({n_significant/n_comparisons*100:.1f}%)")
+        print(f"  Non-significant: {n_comparisons - n_significant}")
+        print(f"{'='*70}\n")
+        
+        return comp_df
+    
     def compare_all_models(self, results_dict: Dict[str, pd.DataFrame]) -> pd.DataFrame:
         """
         Perform pairwise statistical comparisons between all models.
+        
+        DEPRECATED: Use create_statistical_comparisons() instead.
         
         Args:
             results_dict: Dictionary mapping model names to CV results
@@ -206,61 +302,10 @@ class ECGEvaluator:
         Returns:
             DataFrame with pairwise comparison results
         """
-        print(f"\n{'='*70}")
-        print("Statistical Significance Testing (McNemar's Test)")
-        print(f"{'='*70}")
-        print("Addresses Reviewer D-16, D-26: Pairwise model comparisons\n")
+        print("\n⚠️  Warning: compare_all_models() is deprecated.")
+        print("    Use create_statistical_comparisons() instead.\n")
         
-        model_names = list(results_dict.keys())
-        comparisons = []
-        
-        for i, model1 in enumerate(model_names):
-            for model2 in model_names[i+1:]:
-                print(f"Comparing {model1} vs {model2}...")
-                
-                # Note: This is simplified - in practice, you'd need actual predictions
-                # For demonstration, we use accuracy differences as proxy
-                df1 = results_dict[model1]
-                df2 = results_dict[model2]
-                
-                # Calculate mean difference
-                mean_diff = df1['accuracy'].mean() - df2['accuracy'].mean()
-                
-                # T-test on accuracy differences across folds
-                t_stat, p_value = stats.ttest_rel(df1['accuracy'], df2['accuracy'])
-                
-                # Determine significance level
-                if p_value < 0.001:
-                    sig_level = '***'
-                elif p_value < 0.01:
-                    sig_level = '**'
-                elif p_value < 0.05:
-                    sig_level = '*'
-                else:
-                    sig_level = 'ns'
-                
-                comparisons.append({
-                    'model_1': model1,
-                    'model_2': model2,
-                    'mean_diff': mean_diff,
-                    't_statistic': t_stat,
-                    'p_value': p_value,
-                    'significant': p_value < 0.05,
-                    'significance_level': sig_level
-                })
-                
-                print(f"  p-value: {p_value:.4f} {sig_level}")
-        
-        comp_df = pd.DataFrame(comparisons)
-        
-        # Save results
-        comp_path = self.metrics_dir / 'statistical_comparisons.csv'
-        comp_df.to_csv(comp_path, index=False)
-        
-        print(f"\n✅ Statistical comparisons saved to: {comp_path}")
-        print(f"{'='*70}\n")
-        
-        return comp_df
+        return self.create_statistical_comparisons()
     
     def create_summary_report(self) -> pd.DataFrame:
         """
@@ -321,6 +366,9 @@ if __name__ == '__main__':
     
     # Create summary report
     summary = evaluator.create_summary_report()
+    
+    # Create statistical comparisons
+    comparisons = evaluator.create_statistical_comparisons()
     
     print("\n✅ Evaluation complete!")
     print("="*70 + "\n")
