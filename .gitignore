@@ -106,3 +106,4 @@ dmypy.json
 # Specific scripts
 optimize_for_cpu.py
 pipeline.log
+statistic_comparison.ipynb

@@ -181,48 +181,6 @@ python run_pipeline.py --step visualize
 
 ---
 
-## 📊 Expected Results
-
-After running the pipeline, check these directories:
-
-### Metrics (`results/metrics/`)
-
-- **`summary_statistics.csv`** - Mean±std for all models
-- **`statistical_comparisons.csv`** - Pairwise McNemar tests
-- **`all_models_cv_results.csv`** - Detailed fold-by-fold results
-- **`*_cv_results.csv`** - Per-model results
-
-Example summary:
-
-```
-Model Performance (5-fold CV, mean ± std):
-
-Model         | Accuracy      | AUC          | F1-Score
---------------|---------------|--------------|-------------
-SVM           | 85.3 ± 2.1%   | 0.87 ± 0.03  | 0.85 ± 0.02
-VGG16         | 82.1 ± 3.5%   | 0.84 ± 0.04  | 0.82 ± 0.04
-ResNet50      | 83.5 ± 2.8%   | 0.85 ± 0.03  | 0.84 ± 0.03
-InceptionV3   | 81.2 ± 3.8%   | 0.83 ± 0.04  | 0.81 ± 0.04
-Xception      | 82.8 ± 3.1%   | 0.84 ± 0.03  | 0.83 ± 0.03
-Custom CNN    | 78.9 ± 4.2%   | 0.81 ± 0.05  | 0.79 ± 0.04
-```
-
-### Figures (`results/figures/`)
-
-All figures are high-resolution PNG (300 DPI, publication-ready):
-
-1. **`preprocessing_pipeline.png`** - Preprocessing steps flowchart
-2. **`data_distribution.png`** - Normal vs abnormal counts
-3. **`patient_distribution.png`** - Images per patient histogram
-4. **`augmentation_examples.png`** - Original + augmented samples
-5. **`training_curves/`** - Loss/accuracy plots per model
-6. **`confusion_matrices/`** - Normalized confusion matrices
-7. **`roc_curves_combined.png`** - All models' ROC curves
-8. **`performance_comparison_boxplot.png`** - Cross-fold variability
-9. **`statistical_heatmap.png`** - P-values between models
-
----
-
 ## ⚙️ Configuration
 
 All parameters are in `config.yaml`. Key sections:
@@ -333,27 +291,11 @@ reproducibility:
 
 ---
 
-## 📝 Citation
-
-If you use this code, please cite:
-
-```bibtex
-@article{ecg_classification_2025,
-  title={Classification of Heart Disorders Using Deep Learning and Machine Learning Approaches},
-  author={Your Name et al.},
-  journal={Communications in Science and Technology},
-  year={2025},
-  note={Major revision addressing reviewer requirements}
-}
-```
-
----
-
 ## 📧 Contact & Support
 
 For questions or issues:
 - **Create an issue** in this repository
-- **Email:** your.email@example.com
+- **Email:** Dafa, Abdullah Hasan
 
 ---
 
